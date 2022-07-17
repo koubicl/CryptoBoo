@@ -1,10 +1,10 @@
 object Libs {
     const val ktLintVersion = "0.41.0"
-    const val androidGradlePlugin = "com.android.tools.build:gradle:7.1.0-alpha02"
+    const val androidGradlePlugin = "com.android.tools.build:gradle:7.2.1"
     const val ktLint = "com.pinterest:ktlint:$ktLintVersion"
 
     object Kotlin {
-        private const val version = "1.5.20"
+        private const val version = "1.5.10"
         const val stdlib = "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$version"
         const val gradlePlugin = "org.jetbrains.kotlin:kotlin-gradle-plugin:$version"
         const val extensions = "org.jetbrains.kotlin:kotlin-android-extensions:$version"
@@ -103,6 +103,6 @@ object Libs {
         const val minSdkVersion = 24
         const val targetSdkVersion = 30
         const val compileSdkVersion = 30
-        const val applicationId = "com.template"
+        const val applicationId = "cz.cryptoboo"
     }
 }

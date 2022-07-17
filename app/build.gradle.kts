@@ -1,5 +1,6 @@
 plugins {
     id("com.android.application")
+    kotlin("android")
     id("kotlin-android")
     id("kotlin-kapt")
 }
@@ -44,7 +45,6 @@ android {
     }
     kotlinOptions {
         jvmTarget = "1.8"
-        useIR = true
     }
     packagingOptions {
        resources.excludes.add("/META-INF/AL2.0")

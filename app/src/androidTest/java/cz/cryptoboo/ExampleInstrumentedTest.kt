@@ -1,4 +1,4 @@
-package com.template
+package cz.cryptoboo
 
 import androidx.compose.ui.test.junit4.createAndroidComposeRule
 import androidx.compose.ui.test.onNodeWithText

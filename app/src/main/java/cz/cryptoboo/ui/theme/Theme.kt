@@ -1,4 +1,4 @@
-package com.template.ui.theme
+package cz.cryptoboo.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme
